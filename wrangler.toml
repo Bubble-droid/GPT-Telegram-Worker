@@ -15,7 +15,7 @@ GOOGLE_MODELS = "gemini-2.0-flash-exp"
 DEFAULT_MODEL = "gemini-2.0-flash-exp"
 SYSTEM_INIT_MESSAGE_ROLE = "system"
 BOT_NAME = "" # bot名称
-GROUP_COOLDOWN_INTERVAL = "180000" # 冷却间隔，单位毫秒
+GROUP_COOLDOWN_INTERVAL = "" # 冷却间隔，单位毫秒
 
 [[kv_namespaces]]
 binding = "COOLDOWN"
